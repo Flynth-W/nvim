@@ -2,6 +2,7 @@
 function diagnostic
 {
 	local out=$1
+	local path=$2
 	local find=$( echo $out | grep "!"  )
 
 	if [[ $find  ]]
@@ -12,14 +13,15 @@ function diagnostic
 		echo "okey"
 	fi
 	
-	rm  ./*.aux ./*.log 
+    $( rm  $path/*.aux $path/*.log  )
 }
 
 function main
 {
 	local file=$1
-	local out=$( pdflatex -output-directory=./  $file  &) 
-	$( diagnostic "${out[@]}" )
+	local path=$2
+	local out=$( pdflatex -output-directory=$path  $file  ) 
+	$( diagnostic "${out[@]}" $path )
 }
 
-main $1
+main $*

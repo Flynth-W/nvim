@@ -1,8 +1,9 @@
 function main
 {
 	local file=$1
+	local path=$2
 	local name=$( echo $file | cut -d "." -f1 )
-	$( zathura $name.pdf & )
+    $( zathura $path/$name.pdf  )
 
 }
-main $1
+main $*

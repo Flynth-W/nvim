@@ -25,7 +25,7 @@ function! OpenFloatTerm(cmd)
     execute( "terminal ". a:cmd )
     startinsert
     " Hook up TermClose event to close both terminal and border windows
-    autocmd TermClose * ++once :bdelete | call nvim_win_close(s:win_bor, v:true)
+    autocmd TermClose * ++once :bdelete | call nvim_win_close(s:win_bor, v:true) | call g:ListBuff()
     
 endfunction
 

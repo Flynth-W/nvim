@@ -10,6 +10,9 @@ vmap <A-w> w
 imap <A-S-w> <C-\><C-O>b
 nmap <A-S-w> b
 vmap <A-S-w> b
+" Run Program()
+nmap <A-r> <Cmd> call Run() <CR>
+imap <A-r> <Esc> <Cmd> call Run() <CR>
 
 "tabs :
     imap <A-S-d> <Cmd> tabnext <CR>
@@ -18,7 +21,7 @@ vmap <A-S-w> b
     nmap <A-S-a> <Cmd> tabNext <CR>
 " guardar archivo
 imap <A-s> <Cmd> update<CR>
-nmap <A-s> <Cmd> update<CR>
+nmap <A-s> <Cmd> call SaveCompile() <CR>
 " quitar un archivo 
 imap <A-x> <Cmd> bdelete <CR>
 nmap <A-x> <Cmd> bdelete <CR>
