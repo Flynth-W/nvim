@@ -5,7 +5,12 @@
     hi! link vimOperParen        SYMBOL   " ( [] ) 
     hi! link vimSetSep           SYMBOL
     hi! link vimBracket          SYMBOL   " ( <> )
+    hi! link vimEnvvar           SYMBOL
 "	[ Perzonalizado ]
+hi! link vimCommentString        COMMENT 
+hi! link vimCommentTitleLeader   COMMENT 
+hi! link vimCommentTitle         COMMENT 
+hi! link vimComment              COMMENT 
 hi! link vimLineComment          COMMENT
 hi! link vimLet                  DECLARE
 hi! link vimVar                  NAME 
@@ -83,10 +88,6 @@ hi  vimCollClassErr                    guibg=#aaaa00  guifg=#ff0000  gui=bold
 hi  vimCollClass                       guibg=#aaaa00  guifg=#ff0000  gui=bold
 hi  vimCollection                      guibg=#aaaa00  guifg=#ff0000  gui=bold
 hi  vimComFilter                       guibg=#aaaa00  guifg=#ffff00  gui=bold
-hi  vimCommentString                   guibg=#aaaa00  guifg=#ffff00  gui=bold
-hi  vimCommentTitleLeader              guibg=#aaaa00  guifg=#00ff00  gui=bold
-hi  vimCommentTitle                    guibg=#aaaa00  guifg=#00ff00  gui=bold
-hi  vimComment                         guibg=#aaaa00  guifg=#00ff00  gui=bold
 hi  vimCondHL                          guibg=#aaaa00  guifg=#00ff44  gui=bold
 hi  vimContinue                        guibg=#aaaa00  guifg=#00ff44  gui=bold
 hi  vimCtrlChar                        guibg=#aaaa00  guifg=#00ff44  gui=bold
@@ -95,7 +96,6 @@ hi  vimEcho                            guibg=#aaaa00  guifg=#00ffff  gui=bold
 hi  vimElseIfErr                       guibg=#aaaa00  guifg=#ffffff  gui=bold
 hi  vimElseif                          guibg=#aaaa00  guifg=#ffffff  gui=bold
 hi  vimEmbedError                      guibg=#aaaa00  guifg=#ffffff  gui=bold
-hi  vimEnvvar                          guibg=#aaaa00  guifg=#ff8800  gui=bold
 hi  vimError                           guibg=#aaaa00  guifg=#ff8800  gui=bold
 hi  vimErrSetting                      guibg=#aaaa00  guifg=#ff8800  gui=bold
 hi  vimEscapeBrace                     guibg=#aaaa00  guifg=#55ff55  gui=bold

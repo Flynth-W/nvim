@@ -1,6 +1,11 @@
-source $HOME/.config/nvim/colors/highlight/nvimDefault.vim
-colorscheme menta
+"lua :
+lua <<EOF
+    require "plugins"
+EOF
 
-set termguicolors
-set clipboard=unnamedplus
+
+source $HOME/.config/nvim/colors/highlight/nvim.vim
+source $HOME/.config/nvim/colors/highlight/plugins/Cmp.vim
+source $HOME/.config/nvim/core/init.vim
+
 

@@ -6,8 +6,10 @@ let for   = "#aa55ff"
 let five  = "#55aaff"
 let sex   = "#5555ff"
 
+    hi ONE       guibg=none guifg=#0055ff gui=italic
+    hi FIVE      guibg=none guifg=#55aaff gui=none
 "CURSOR :
-    hi CURSOR       guibg=#001122 guifg=#33ffff gui=italic
+    hi CURSOR       guibg=#001122 guifg=#00ffff gui=italic
     hi SELEC        guibg=#001122 guifg=#ffffff gui=italic
 "GLOBAL :
     hi NORMAL       guibg=none    guifg=#00ffff gui=none 
@@ -19,9 +21,11 @@ let sex   = "#5555ff"
     hi OPLOGIC      guibg=none    guifg=#00aaff gui=italic
 " SPECIAL :
     hi SYMBOL       guibg=none    guifg=#aa55ff gui=none
-    hi SPECIAL      guibg=none    guifg=#00ffff gui=bold
-    hi SPECIALD     guibg=#000000 guifg=#00ffff gui=bold
-    hi SPECIALID    guibg=#00aaff guifg=none    gui=bold
+    hi SPECIAL      guibg=none    guifg=#00ffff gui=italic
+    hi SPECIALD     guibg=#000000 guifg=#00ffff gui=italic
+    hi SPECIALID    guibg=#00aaff guifg=none    gui=italic
+    hi SPCN         guibg=#00aaff guifg=#000000    gui=italic
+    hi SPCNB         guibg=#00aaff guifg=#000000    gui=bold
 
 "CALL FUNCTION :
     hi CALLFN       guibg=none    guifg=#00aaff gui=italic 

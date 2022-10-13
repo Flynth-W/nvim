@@ -1,12 +1,6 @@
 source $HOME/.config/nvim/colors/highlight/languages/vim.vim
 
-function Cmd()
-	let l:file=expand("%:t")
-	let l:cmd=" source" . l:file  
-  return l:cmd 	
-endfunction
 
-call Cmd()
 
 function Run() 
 	let l:file=expand("%:t")

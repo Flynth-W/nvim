@@ -10,6 +10,7 @@
     hi! link Conditional      OPLOGIC    " if else
     hi! link Repeat           OPLOGIC    " ciclos
 "Global aspect :
+	set winhighlight=Normal:DECLARE,NormalNC:ONE " float win
     hi! link Normal           NORMAL
     hi! link NormalFloat      NORMAL
     hi! link NormalNC         NORMAL
@@ -17,7 +18,7 @@
     hi! link StatusLine       NORMAL
     hi! link EndOfBuffer      NORMAL      " fondo sin texto  
     hi! link MsgArea          NORMAL      " linea de commandos
-    hi! link WinSeparator     NORMAL      " separador vertical de ventanas
+    hi! link WinSeparator     ONE      " separador vertical de ventanas
     hi! link ModeMsg          SPECIALD 
 "VENTANA DE OPCIONES  :
     hi! link Pmenu            OPLOGIC     " principal
@@ -48,7 +49,7 @@
     hi! link LineNrAbove      DECLARE 
     hi! link LineNrBelow      DECLARE 
 "Columna de signos 
-    hi! link SignColumn               NORMAL
+    hi! link SignColumn               NONE
     hi! link DiagnosticSignError      ERROR
     hi! link DiagnosticSignWarn       WARN
     hi! link DiagnosticSignHint       ALERT
