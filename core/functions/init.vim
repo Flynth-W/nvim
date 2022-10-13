@@ -1,0 +1,7 @@
+source $HOME/.config/nvim/core/functions/Size.vim      
+source $HOME/.config/nvim/core/functions/Lorem.vim
+source $HOME/.config/nvim/core/functions/OpenFloatTerm.vim
+source $HOME/.config/nvim/core/functions/ListBuff.vim
+source $HOME/.config/nvim/core/functions/ListTabs.vim
+source $HOME/.config/nvim/core/functions/ViewPdf.vim
+
