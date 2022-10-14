@@ -1,3 +1,7 @@
+" plugins
+source $HOME/.config/nvim/colors/highlight/plugins/Cmp.vim
+source $HOME/.config/nvim/colors/highlight/plugins/Lsp.vim
+
 "Symbols : 
     hi! link op_lv0           SYMBOL     "punto y coma: 
     hi! link MatchParen       SYMBOL     " perntesis seleccionado:
@@ -10,7 +14,7 @@
     hi! link Conditional      OPLOGIC    " if else
     hi! link Repeat           OPLOGIC    " ciclos
 "Global aspect :
-	set winhighlight=Normal:DECLARE,NormalNC:ONE " float win
+	set winhighlight=Normal:DECLARE,NormalNC:DECLARE " float win
     hi! link Normal           NORMAL
     hi! link NormalFloat      NORMAL
     hi! link NormalNC         NORMAL

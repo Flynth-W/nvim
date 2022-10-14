@@ -6,4 +6,5 @@ source $HOME/.config/nvim/core/functions/ListTabs.vim
 source $HOME/.config/nvim/core/functions/ViewPdf.vim
 source $HOME/.config/nvim/core/functions/Run.vim
 source $HOME/.config/nvim/core/functions/SaveCompile.vim
+source $HOME/.config/nvim/core/functions/Terminal.vim
 

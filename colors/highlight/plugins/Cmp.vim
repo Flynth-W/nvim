@@ -1,4 +1,3 @@
-
 hi! link CmpItemAbbr     DECLARE
 "Search :
     hi! link CmpItemAbbrMatch           CURSOR

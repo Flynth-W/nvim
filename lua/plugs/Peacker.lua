@@ -3,11 +3,14 @@ require('packer').startup(function()
 
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
-
+    use 'glepnir/dashboard-nvim'        --dashboard
     use 'neovim/nvim-lspconfig' --Configurations for Nvim LSP
 	--use 'williamboman/nvim-lsp-installer'  -- installer lua
 	--use 'jose-elias-alvarez/null-ls.nvim'
 	use	'hrsh7th/cmp-nvim-lsp-signature-help'
+    
+    --use { 'echasnovski/mini.nvim', branch = 'stable' }
+
 	use({
 	"hrsh7th/nvim-cmp",
 	requires = {
@@ -26,3 +29,6 @@ require('packer').startup(function()
 
 end
 )
+
+
+

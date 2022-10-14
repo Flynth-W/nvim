@@ -1,0 +1,2 @@
+require("functions/ExampleFile/data")
+

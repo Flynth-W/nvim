@@ -12,6 +12,9 @@ function main
         markdown)
             $( sh ~/.config/nvim/core/scripts/Compilers/Markdown.sh $file $path )
         ;;
+        rust)
+                cargo build
+        ;;
     esac
 
 }

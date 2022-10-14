@@ -1,9 +1,12 @@
 " COLORS THEME :
+let one   = "#aa5500"
 let two   = "#ffaa00"
 let three = "#ffff33"
 let for   = "#dd7755"
 let five  = "#ffaaaa"
 
+    hi ONE       guibg=none guifg=#aa5500 gui=italic
+    hi FIVE      guibg=none guifg=#ffaaaa gui=none
 "CURSOR :
     hi CURSOR       guibg=#220000 guifg=#ffff33 gui=italic
     hi SELEC        guibg=#220000 guifg=#ffffff gui=italic

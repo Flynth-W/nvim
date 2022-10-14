@@ -22,6 +22,7 @@ function! OpenFloatTerm(cmd)
     "au BufWipeout <buffer> exe 'bw '.s:buf
     "return l:textbuf
     "execute( "terminal ". a:cmd )
+
     execute( "terminal ". a:cmd )
     startinsert
     " Hook up TermClose event to close both terminal and border windows

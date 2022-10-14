@@ -39,8 +39,8 @@ imap <A-a> <Cmd> bprevious<CR>
 nmap <A-a> <Cmd> bprevious<CR>
 "
 "	[ launchers ]
-imap <A-t> <Cmd>  call OpenFloatTerm("") <CR>
-nmap <A-t> <Cmd>  call OpenFloatTerm("") <CR>
+imap <A-t> <Cmd>  call g:Terminal() <CR>
+nmap <A-t> <Cmd>  call g:Terminal() <CR>
 "
 "
 "" explorador de directorios y archivos

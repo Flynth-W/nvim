@@ -13,6 +13,7 @@ require'lspconfig'.texlab.setup{                                        -- LATEX
             return util.path.dirname(fname)
         end
 }
+require'lspconfig'.rust_analyzer.setup{ capabilities = capabilities }   --RUST
 require'lspconfig'.jsonls.setup{ capabilities = capabilities,}          -- JSON
 require'lspconfig'.html.setup{ capabilities = capabilities}             -- HTML
 require'lspconfig'.vimls.setup{ capabilities = capabilities}            -- VIM SCRIPT

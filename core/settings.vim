@@ -54,7 +54,7 @@ sign define DiagnosticSignHint 	text= texthl=DiagnosticSignHint 	linehl=Diagn
 	set statusline+=\%#NONE#
 "tabline
 "    set tabline
-    set showtabline=2
+    set showtabline=3
 	set tabline=
 	set tabline=\%#FIVE#
 	set tabline+=\%{g:beforeBuf}
