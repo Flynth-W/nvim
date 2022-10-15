@@ -52,7 +52,7 @@ local settings = {
         content = {
             { " New File", "lua require'startup'.new_file()", " " },
             { " Recent Files", " Telescope oldfiles", " " },
-            { " Directory", "Telescope file_browser", " " },
+            { " Directory", "Telescope file_browser hidden=true ", " " },
             { " Grep", "Telescope live_grep", " " },
             { " Themes", "Telescope colorscheme", " " },
         },

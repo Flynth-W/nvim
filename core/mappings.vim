@@ -43,12 +43,16 @@ imap <A-t> <Cmd>  call g:Terminal() <CR>
 nmap <A-t> <Cmd>  call g:Terminal() <CR>
 "
 "
-"" explorador de directorios y archivos
-nmap <A-c>   <Cmd>cd %:p:h<CR>  <Cmd> Telescope file_browser <CR>
-imap <A-c> <Esc><CR><Cmd>cd %:p:h<CR><Cmd>Telescope file_browser<CR>
+"" Telescope : explorador de directorios y archivos
+nmap <A-S-e>   <Cmd>cd %:p:h<CR>  <Cmd> Telescope file_browser hidden=true<CR>
+imap <A-S-e> <Esc><CR><Cmd>cd %:p:h<CR><Cmd>Telescope file_browser hidden=true<CR>
 
 nmap <A-g>   <Cmd>cd %:p:h<CR>  <Cmd> Telescope live_grep <CR>
 imap <A-g> <Esc><CR><Cmd>cd %:p:h<CR><Cmd>Telescope live_grep<CR>
+
+nmap <A-h>    <Cmd> Telescope oldfiles<CR>
+imap <A-h> <Esc><CR><Cmd>Telescope oldfiles<CR>
+ 
 
 " navegacion po ventanas
 nmap <A-Left> 	<C-w>h

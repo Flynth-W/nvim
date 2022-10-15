@@ -1,6 +1,11 @@
 
 ## NVIM 
 
+## captura de pantallas :
+
+
+
+
 ### caracteristicas :
 * minimalista
 * configuracion de temas facil

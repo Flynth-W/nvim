@@ -33,7 +33,7 @@ end
 
 
 function List( )
-    local dirline = Shell("dir -r ".. dir)
+    local dirline = Shell("dir ".. dir)
     local s = dirline[1]
     local words = {}
     for w in s:gmatch("%w+") do
@@ -45,8 +45,8 @@ function List( )
         local msg="  ﱚ "..v
         local cmd=string.format( "source %s | let g:CurrentSession='%s' ",path ,v )
         
-        --local map="<leader>"..k
-        local map=" "
+        local map="<leader>"..k
+        --local map=" "
         local t={msg,cmd,map}
         table.insert(tbl,t)
     end

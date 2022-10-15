@@ -25,12 +25,16 @@ let five  = "#ffaaaa"
     hi SPECIAL      guibg=none    guifg=#ffff33 gui=bold
     hi SPECIALD     guibg=#000000 guifg=#ffff33 gui=bold
     hi SPECIALID    guibg=#ffaa00 guifg=none    gui=bold
+    hi SPCN         guibg=#ffaa00 guifg=#000000    gui=italic
+    hi SPCNB        guibg=#ffaa00 guifg=#000000    gui=bold
 
 "CALL FUNCTION :
     hi CALLFN       guibg=none    guifg=#ffaa00 gui=italic 
     hi CALLFNMORE   guibg=none    guifg=#ffff33 gui=italic 
     hi CALLFNMOREM  guibg=none    guifg=#ffffff gui=italic 
 " DEFAULT
+    hi NONE         guibg=none    guifg=none gui=none 
+    hi GRAY         guibg=none    guifg=#aaaaaa gui=none 
     hi ERROR        guibg=#000000 guifg=#ff3333 gui=none
     hi WARN         guibg=#000000 guifg=#ffff33 gui=none
     hi ALERT        guibg=#000000 guifg=#33ffff gui=none
