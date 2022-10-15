@@ -101,7 +101,7 @@ hi  vimErrSetting                      guibg=#aaaa00  guifg=#ff8800  gui=bold
 hi  vimEscapeBrace                     guibg=#aaaa00  guifg=#55ff55  gui=bold
 hi  vimExecute                         guibg=#aaaa00  guifg=#55ff55  gui=bold
 hi  vimExtCmd                          guibg=#aaaa00  guifg=#55ff55  gui=bold
-hi  vimFBVar                           guibg=#aaaa00  guifg=#5555ff  gui=bold
+hi  vimFBVar                           guibg=none     guifg=#5555ff  gui=bold
 hi  vimFilter                          guibg=#aaaa00  guifg=#ff5555  gui=bold
 hi  vimFold                            guibg=#aaaa00  guifg=#ff5555  gui=bold
 hi  vimFTError                         guibg=#000000  guifg=#ff0000  gui=bold

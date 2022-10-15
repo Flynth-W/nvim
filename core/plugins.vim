@@ -1,4 +1,6 @@
 call plug#begin()
+"    Plug 'mhinz/vim-startify' " start nvim
+
 
     Plug 'chun-yang/auto-pairs',        " parentesis
     Plug 'tpope/vim-surround', {'autoload': {'filetypes': ['clojure','rst','python']} } " selecciona y coloca parentesis, ...

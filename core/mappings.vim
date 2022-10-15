@@ -44,9 +44,11 @@ nmap <A-t> <Cmd>  call g:Terminal() <CR>
 "
 "
 "" explorador de directorios y archivos
-nmap <A-S-e> <Cmd>Explore<CR>
-inoremap <A-S-e> <Esc><CR><Cmd>Explore<CR>
+nmap <A-c>   <Cmd>cd %:p:h<CR>  <Cmd> Telescope file_browser <CR>
+imap <A-c> <Esc><CR><Cmd>cd %:p:h<CR><Cmd>Telescope file_browser<CR>
 
+nmap <A-g>   <Cmd>cd %:p:h<CR>  <Cmd> Telescope live_grep <CR>
+imap <A-g> <Esc><CR><Cmd>cd %:p:h<CR><Cmd>Telescope live_grep<CR>
 
 " navegacion po ventanas
 nmap <A-Left> 	<C-w>h

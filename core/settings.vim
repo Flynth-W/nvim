@@ -1,4 +1,7 @@
+
+
 "au BufNewFile,BufRead *.tex set filetype=tex
+au BufNewFile,BufRead * set nocursorline
 "autocmd Syntax * set nofoldenable
 
 " set's

@@ -3,13 +3,25 @@ require('packer').startup(function()
 
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
-    use 'glepnir/dashboard-nvim'        --dashboard
+    use { "nvim-telescope/telescope-file-browser.nvim" }
+    --use 'glepnir/dashboard-nvim'        --dashboard
+    
     use 'neovim/nvim-lspconfig' --Configurations for Nvim LSP
 	--use 'williamboman/nvim-lsp-installer'  -- installer lua
 	--use 'jose-elias-alvarez/null-ls.nvim'
 	use	'hrsh7th/cmp-nvim-lsp-signature-help'
     
     --use { 'echasnovski/mini.nvim', branch = 'stable' }
+
+use {
+  "startup-nvim/startup.nvim",
+  requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
+  config = function()
+    require("startup").setup(require("plugs.Start"))
+  end
+}
+
+
 
 	use({
 	"hrsh7th/nvim-cmp",
@@ -32,3 +44,5 @@ end
 
 
 
+require("startup").setup(require("plugs.Start"))
+require("telescope").load_extension "file_browser"

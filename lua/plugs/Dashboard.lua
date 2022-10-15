@@ -1,8 +1,26 @@
 
-local db = require('dashboard')
-db.custom_center = {
-    {icon = '  ',
-    desc = 'Recently latest session                  ',
-    shortcut = 'SPC s l',
-    action =' new |     set showtabline=3'},
- }
+--local db = require('dashboard')
+--db.preview_file_height = 11
+--db.preview_file_width = 70
+--db.custom_center = {
+--    {icon = ' ',
+--    desc = '  new file                               ',
+--    action =  'DashboardNewFile',
+--    shortcut = ' '},
+--    {icon = ' ',
+--    desc = '  Historial                              ',
+--    action = 'DashboardNewFile',
+--    shortcut = ' '},
+--    --{icon = '  ',
+--    --desc ='File Browser                            ',
+--    --action =  'Telescope file_browser',
+--    --shortcut = 'SPC f b'},
+--    --{icon = '  ',
+--    --desc = 'Find  word                              ',
+--    --action = 'Telescope live_grep',
+--    --shortcut = 'SPC f w'},
+--    --{icon = '  ',
+--    --desc = 'Open Personal dotfiles                  ',
+--    --action = 'Telescope dotfiles path=' .. home ..'/.dotfiles',
+--    --shortcut = 'SPC f d'},
+--}
