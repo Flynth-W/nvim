@@ -3,18 +3,37 @@
 
 ## captura de pantallas :
 
+| startup | 
+| ---   | 
+| ![Texto alternativo](.Docs/img/2022_10_15_12.03.45.png) | 
+| temas |
+| ![Texto alternativo](.Docs/img/2022_10_15_12.07.11.png) | 
+| ![Texto alternativo](.Docs/img/2022_10_15_12.09.25.png) |
 
+| Run | terminal |
+| --- | --- |
+|  ![Texto alternativo](.Docs/img/2022_10_15_12.12.21.png) |  ![Texto alternativo](.Docs/img/2022_10_15_12.18.48.png)|
+
+
+| Lsp | Cmp |
+| --- | --- |
+|  ![Texto alternativo](.Docs/img/2022_10_15_12.24.15.png) |  ![Texto alternativo](.Docs/img/2022_10_15_12.24.30.png)|
 
 
 ### caracteristicas :
 * minimalista
 * configuracion de temas facil
-* atajos de teclado simples
+* atajos de teclado simples 
 * compilar y correr varios lenguajes
 * cmp para el auto completado
 * lsp para el dignostico
 * terminal flotante
 * documentacion para crear vim scripts
+* Telescope :
+    * file explorer
+    * file grep
+    * file history
+
 ### Instalar :
 ```sh
     cd ~/.config/
@@ -91,7 +110,11 @@ sudo pacman -S zathura
 ``` 
     : PlugInstall
     : PackerInstall
+```        
+
+### HELP ?
+
+```
+    ver .Docs/
 ```
 
-        
-        

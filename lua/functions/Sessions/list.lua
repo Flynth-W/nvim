@@ -33,7 +33,7 @@ end
 
 
 function List( )
-    local dirline = Shell("dir ".. dir)
+    local dirline = Shell("dir -t ".. dir)
     local s = dirline[1]
     local words = {}
     for w in s:gmatch("%w+") do

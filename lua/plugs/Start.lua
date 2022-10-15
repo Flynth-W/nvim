@@ -75,7 +75,7 @@ local settings = {
     footer = {
         type = "text",
         oldfiles_directory = false,
-        align = "center",
+        align = "right",
         fold_section = false,
         title = "Footer",
         margin = 0,
@@ -91,7 +91,7 @@ local settings = {
         cursor_column = 0.5,
         empty_lines_between_mappings = true,
         disable_statuslines = true,
-        paddings = { 1, 2, 2, 13 },
+        paddings = { 1, 2, 2, 0 },
         after = function ()
             vim.cmd [[ set cursorline ]]
         end

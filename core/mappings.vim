@@ -1,6 +1,13 @@
 "use Alt  
 "Ctrl Sistem nvim
 
+" Sessions :
+nmap <leader>ss <Cmd> call SessionSave() <CR>
+nmap <leader>sd <Cmd> call SessionDelet() <CR>
+nmap <leader>sn <Cmd> call SessionNew() <CR>
+nmap <leader>sc <Cmd> call SessionConfig() <CR>
+
+
 " movimiento en el archivo
 " 	* palabras  ( words )
 imap <A-w> <C-\><C-O>w
@@ -47,8 +54,8 @@ nmap <A-t> <Cmd>  call g:Terminal() <CR>
 nmap <A-S-e>   <Cmd>cd %:p:h<CR>  <Cmd> Telescope file_browser hidden=true<CR>
 imap <A-S-e> <Esc><CR><Cmd>cd %:p:h<CR><Cmd>Telescope file_browser hidden=true<CR>
 
-nmap <A-g>   <Cmd>cd %:p:h<CR>  <Cmd> Telescope live_grep <CR>
-imap <A-g> <Esc><CR><Cmd>cd %:p:h<CR><Cmd>Telescope live_grep<CR>
+nmap <A-g>   <Cmd>cd %:p:h<CR>  <Cmd> Telescope grep_string <CR>
+imap <A-g> <Esc><CR><Cmd>cd %:p:h<CR><Cmd>Telescope grep_string<CR>
 
 nmap <A-h>    <Cmd> Telescope oldfiles<CR>
 imap <A-h> <Esc><CR><Cmd>Telescope oldfiles<CR>

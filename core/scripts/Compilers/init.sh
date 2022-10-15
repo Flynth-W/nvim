@@ -9,9 +9,9 @@ function main
         tex)
             $( sh  ~/.config/nvim/core/scripts/Compilers/Latex.sh $file $path )
         ;;
-        #markdown)
-        #    $( sh ~/.config/nvim/core/scripts/Compilers/Markdown.sh $file $path )
-        #;;
+        markdown)
+            $( sh ~/.config/nvim/core/scripts/Compilers/Markdown.sh $file $path )
+        ;;
         rust)
                 cargo build
         ;;
