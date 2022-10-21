@@ -1,4 +1,4 @@
-## Devloping (<>)
+## Devloping 
 
 ## NVIM  - Arch Linux
 
