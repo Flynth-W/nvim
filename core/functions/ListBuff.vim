@@ -7,7 +7,7 @@ function Namebuf(nbuff)
     return name
 endfunction
 
-function! g:ListBuff()
+function g:ListBuff()
     let lastBuffer=bufnr('$')
     let g:currentBuffer= bufnr('%')
     
@@ -34,4 +34,6 @@ endfunction
 
 
 g:ListBuff()
-autocmd BufWinEnter,WinLeave,TabLeave,WinEnter,TabEnter * call g:ListBuff()
+
+
+autocmd InsertEnter,InsertLeave,BufEnter,BufWinEnter,WinLeave,TabLeave,WinEnter,TabEnter * call g:ListBuff() 

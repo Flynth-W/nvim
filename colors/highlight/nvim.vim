@@ -4,7 +4,7 @@ source $HOME/.config/nvim/colors/highlight/plugins/Lsp.vim
 
 "Symbols : 
     hi! link op_lv0           SYMBOL     "punto y coma: 
-    hi! link MatchParen       SYMBOL     " perntesis seleccionado:
+    hi! link MatchParen       SPECIALD     " perntesis seleccionado:
     hi! link SpecialKey       SYMBOL     " ENTER in intc
 "Type data:
     hi! link Number           TYPEDATA

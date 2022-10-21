@@ -16,10 +16,10 @@ hi! link vimLet                  DECLARE
 hi! link vimVar                  NAME 
 hi! link vimUsrCmd               DECLARE " ( Plug )
 hi! link vimUserFunc             DECLARE " ( begin ) 
-hi! link vimNumber               DATA    
-hi! link vimString               DATA    
-hi! link vimStringEnd            DATA    
-hi! link vimIsCommand            DATA  
+hi! link vimNumber               DATAS    
+hi! link vimString               DATAS    
+hi! link vimStringEnd            DATAS    
+hi! link vimIsCommand            DATAS  
 hi! link vimEchoHLNone           GRAY     "none 
 hi! link vimFgBgAttrib           GRAY     "none
 hi! link vimScriptDelim          SYMBOL   "lua script  

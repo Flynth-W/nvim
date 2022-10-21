@@ -17,7 +17,7 @@ let sex   = "#5555ff"
     hi COMMENT      guibg=#000000 guifg=#00aaff gui=italic 
     hi DECLARE      guibg=none    guifg=#00aaff gui=italic
     hi NAME         guibg=none    guifg=#00ffff gui=none
-    hi DATA         guibg=none    guifg=#55aaff gui=italic
+    hi DATAS        guibg=none    guifg=#55aaff gui=italic
     hi TYPEDATA     guibg=none    guifg=#5500ff gui=italic
     hi OPLOGIC      guibg=none    guifg=#00aaff gui=italic
 " SPECIAL :

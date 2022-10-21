@@ -8,4 +8,5 @@ source $HOME/.config/nvim/core/functions/Run.vim
 source $HOME/.config/nvim/core/functions/SaveCompile.vim
 source $HOME/.config/nvim/core/functions/Terminal.vim
 source $HOME/.config/nvim/core/functions/Sessions.vim
+source $HOME/.config/nvim/core/functions/TabNew.vim
 

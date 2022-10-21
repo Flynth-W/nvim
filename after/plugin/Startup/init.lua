@@ -23,8 +23,9 @@ local cnt2={
 }
 
 
-require("functions.Sessions")
+
 local msg = List()
+--local msg = {"lora"}
 local Sesions= msg
 
 local settings = {
@@ -107,6 +108,10 @@ local settings = {
         background = "#1f2227",
         folded_section = "#56b6c2",
     },
-    parts = { "header", "body","body_2" , "footer" },
+    parts = { "header", "body" ,"body_2" ,"footer" },
 }
-return settings
+
+
+
+require("startup").setup(settings)
+

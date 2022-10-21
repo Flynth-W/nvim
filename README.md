@@ -70,9 +70,10 @@ sudo pacman -S pandoc
 sudo pacman -S zathura
 ```
 #### Lsp : `https://github.com/neovim/nvim-lspconfig`
-* file      `~/.config/nvim/lua/plugs/Lsp.lua`
 * install:
 ```sh
+# para arch linux :
+
 #denols:( typescript )
     sudo pacman -S deno
 # rust_analyzer
@@ -83,10 +84,14 @@ sudo pacman -S zathura
     #or
     cargo install texlab
 
-# jsonls 
-    sudo npm i -g vscode-langservers-extracted
+# pyright: python  
+    sudo pacman -S pyright
 
-# HTML 
+# sumneko_lua :  lua 
+    sudo pacman -S lua-language-server
+# para nmp :
+
+# jsonls , html 
     sudo npm i -g vscode-langservers-extracted
 
 # vimls 
@@ -94,13 +99,6 @@ sudo pacman -S zathura
 
 # bashls 
     sudo npm i -g bash-language-server
-
-# pyright: python  
-    sudo pacman -S pyright
-
-# sumneko_lua :  lua 
-    sudo pacman -S lua-language-server
-
 ```
 
 #### iniciar nvim :
