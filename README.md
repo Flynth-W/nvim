@@ -1,5 +1,6 @@
 ## Devloping (<>)
-## NVIM 
+
+## NVIM  - Arch Linux
 
 ## captura de pantallas :
 
