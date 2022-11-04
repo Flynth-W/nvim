@@ -29,7 +29,7 @@ sign define DiagnosticSignHint 	text= texthl=DiagnosticSignHint 	linehl=Diagn
 
 
 "status line 
-    set laststatus=0
+    set laststatus=3
 	set statusline=
 	set statusline=\%#FIVE#
 	set statusline+=\%{g:beforeBuf}
@@ -59,7 +59,7 @@ sign define DiagnosticSignHint 	text= texthl=DiagnosticSignHint 	linehl=Diagn
 	set statusline+=\%#NONE#
 "tabline
 "    set tabline
-    set showtabline=3
+    set showtabline=0
 	set tabline=
 	set tabline=\%#FIVE#
 	set tabline+=\%{g:beforeBuf}
