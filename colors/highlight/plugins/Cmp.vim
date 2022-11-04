@@ -9,7 +9,7 @@ hi! link CmpItemKindClass             DECLARE
 hi! link CmpItemKindModule            SYMBOL
 hi! link CmpItemKindKeyword           TYPEDATA
 hi! link CmpItemKindText              GRAY
-hi! link CmpItemKindFolder            DATA
+hi! link CmpItemKindFolder            DATAS
 hi! link CmpItemKindFile              GRAY 
 hi! link CmpItemMenu                  CALLFNMOREM
 hi! link CmpItemKindMethod            CALLFN

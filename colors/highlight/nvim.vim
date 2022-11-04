@@ -79,19 +79,19 @@ source $HOME/.config/nvim/colors/highlight/plugins/Lsp.vim
 
 "
 "" [ EXPLORER ]
-"hi  Directory                          guibg=none  guifg=#5555ff  gui=italic
+    hi! link Directory                          SELEC
 ""   afecta al fnal del directorio
-"hi  Function                           guibg=none  guifg=#00aaff  gui=italic
+hi  Function                           guibg=none  guifg=#ff0000  gui=italic
 ""links ...
-"hi  Question                           guibg=none  guifg=#00ffff  gui=italic
+hi  Question                           guibg=none  guifg=#ff0000  gui=italic
 ""flecha special
-"hi  Special                            guibg=none  guifg=#aa55ff  gui=none
+hi  Special                            guibg=none  guifg=#aa55ff  gui=none
 "" dos puntos / sign in latex files
-"hi  Delimiter                          guibg=none  guifg=#aa55ff  gui=none
+hi  Delimiter                          guibg=none  guifg=#aa55ff  gui=none
 ""sort by
-"hi  Statement                          guibg=none  guifg=#ffaaff  gui=none
+hi  Statement                          guibg=none  guifg=#ffaaff  gui=none
 ""identificador del progarama netrw 
-"hi  Identifier                         guibg=none  guifg=#ffaa33  gui=none
+hi  Identifier                         guibg=none  guifg=#ffaa33  gui=none
 
 
 "search
@@ -99,7 +99,7 @@ source $HOME/.config/nvim/colors/highlight/plugins/Lsp.vim
 
 "[ NO VISUALIZADO AUN ? ]
 
-hi  Character                          guibg=#aa0000  guifg=#ff0000  gui=bold
+hi  Character                          guibg=#000000  guifg=#ff0000  gui=bold
 hi  Conceal                            guibg=#aa0000  guifg=#ffff00  gui=bold
 hi  Constant                           guibg=#aa0000  guifg=#ffff00  gui=bold
 hi  CursorColumn                       guibg=#aa0000  guifg=#00ff00  gui=bold

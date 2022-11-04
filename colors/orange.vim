@@ -4,6 +4,7 @@ let two   = "#ffaa00"
 let three = "#ffff33"
 let for   = "#dd7755"
 let five  = "#ffaaaa"
+let Sive  = "#ffaaaa"
 
     hi ONE       guibg=none guifg=#aa5500 gui=italic
     hi TWO       guibg=none guifg=#ffaa00 gui=italic
@@ -13,11 +14,10 @@ let five  = "#ffaaaa"
     hi SELEC        guibg=#220000 guifg=#ffffff gui=italic
 "GLOBAL :
     hi NORMAL       guibg=none    guifg=#ffff33 gui=none 
-    hi NONE         guibg=none    guifg=none gui=none 
     hi COMMENT      guibg=#000000 guifg=#ffaa00 gui=italic 
     hi DECLARE      guibg=none    guifg=#ffaa00 gui=italic
     hi NAME         guibg=none    guifg=#ffff33 gui=none
-    hi DATA         guibg=none    guifg=#ffaaaa gui=italic
+    hi DATAS         guibg=none    guifg=#ffaaaa gui=italic
     hi TYPEDATA     guibg=none    guifg=#aa7755 gui=italic
     hi OPLOGIC      guibg=none    guifg=#ffaa00 gui=italic
 " SPECIAL :
