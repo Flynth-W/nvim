@@ -27,12 +27,15 @@
 
 "GLOBAL
     hi! link typescriptGlobal                   DECLARE
+    hi! link typescriptAccessibilityModifier    TYPEDATA
     hi! link typescriptBlock                    NAME
     hi! link typescriptFuncCallArg              NAME
     hi! link typescriptDotNotation              NAME
     hi! link typescriptConsoleMethod            NAME
     hi! link typescriptBOMWindowProp            NAME
     hi! link typescriptCommentTodo              COMMENT
+    hi! link typescriptDocComment               COMMENT
+    hi! link typescriptMagicComment             COMMENT
     hi! link typescriptComment                  COMMENT
     hi! link typescriptLineComment              COMMENT
     hi! link typescriptOperator                 TYPEDATA
@@ -89,7 +92,6 @@
 
 
 hi  typescriptAbstract                 guibg=#aa0000  guifg=#ff0000  gui=bold
-hi  typescriptAccessibilityModifier    guibg=#aa0000  guifg=#ff0000  gui=bold
 hi  typescriptAmbientDeclaration       guibg=#aa0000  guifg=#ffff00  gui=bold
 hi  typescriptAnimationEvent           guibg=#aa0000  guifg=#ffff00  gui=bold
 hi  typescriptArrayDestructure         guibg=#aa0000  guifg=#ffff00  gui=bold
@@ -143,7 +145,6 @@ hi  typescriptDestructureVariable      guibg=#aaaa00  guifg=#ff5555  gui=bold
 hi  typescriptDocAs                    guibg=#aaaa00  guifg=#ff5555  gui=bold
 hi  typescriptDocA                     guibg=#00aa00  guifg=#ff0000  gui=bold
 hi  typescriptDocB                     guibg=#00aa00  guifg=#ff0000  gui=bold
-hi  typescriptDocComment               guibg=#00aa00  guifg=#ff0000  gui=bold
 hi  typescriptDocDesc                  guibg=#00aa00  guifg=#ff0000  gui=bold
 hi  typescriptDocEventRef              guibg=#00aa00  guifg=#ffff00  gui=bold
 hi  typescriptDocLinkTag               guibg=#00aa00  guifg=#ffff00  gui=bold
@@ -233,7 +234,6 @@ hi  typescriptIntlMethod               guibg=#4400aa  guifg=#ff8800  gui=bold
 hi  typescriptJSONStaticMethod         guibg=#4400aa  guifg=#ff8800  gui=bold
 hi  typescriptKeywordOp                guibg=#4400aa  guifg=#55ff55  gui=bold
 hi  typescriptLabel                    guibg=#4400aa  guifg=#55ff55  gui=bold
-hi  typescriptMagicComment             guibg=#4400aa  guifg=#5555ff  gui=bold
 hi  typescriptMappedIn                 guibg=#4400aa  guifg=#5555ff  gui=bold
 hi  typescriptMathStaticMethod         guibg=#4400aa  guifg=#5555ff  gui=bold
 hi  typescriptMathStaticProp           guibg=#4400aa  guifg=#5555ff  gui=bold
