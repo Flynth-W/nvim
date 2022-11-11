@@ -9,11 +9,15 @@ function main
         tex)
             $( sh  ~/.config/nvim/core/scripts/Compilers/Latex.sh $file $path )
         ;;
-        #markdown)
-        #    $( sh ~/.config/nvim/core/scripts/Compilers/Markdown.sh $file $path )
-        #;;
+        markdown)
+            $( sh ~/.config/nvim/core/scripts/Compilers/Markdown.sh $file $path )
+        ;;
         rust)
                 cargo build
+        ;;
+        asciidoc)
+             #asciidoctor -a toc $file
+             asciidoctor-pdf  $file
         ;;
     esac
 
