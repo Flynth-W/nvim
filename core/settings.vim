@@ -12,8 +12,8 @@ autocmd BufNewFile,BufRead *.fish  set filetype=sh
     set clipboard=unnamedplus
     set mouse=a
 "tabluador
-    set	shiftwidth=4
-    set	tabstop=4
+    set	shiftwidth=2
+    set	tabstop=2
     set	autoindent
     set expandtab 
 " cmd's
