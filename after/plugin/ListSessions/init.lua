@@ -16,7 +16,7 @@ function ListSessions()
   for v  in io.lines (n) do
     local path=string.format( "%s/%s" , dir,v)
     local msg="  ﱚ "..v
-    local cmd=string.format( "source %s | let g:currentsession='%s' ",path ,v )
+    local cmd=string.format( "source %s | let g:CurrentSession='%s' ",path ,v )
 
     local map="<leader>"..i
     local t={msg,cmd,map}
