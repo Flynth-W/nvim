@@ -3,4 +3,5 @@ source $HOME/.config/nvim/core/plugins.vim
 source $HOME/.config/nvim/core/settings.vim
 source $HOME/.config/nvim/core/functions/init.vim
 
+source $HOME/.config/nvim/core/autocmd.vim
 
