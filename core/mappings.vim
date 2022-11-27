@@ -45,10 +45,6 @@ nmap <A-Down> 	<C-w>j
 nmap <A-Up> 	<C-w>k
 nmap <A-Right> 	<C-w>l
 
-imap <A-Left> 	<C-w>h
-imap <A-Down> 	<C-w>j
-imap <A-Up> 	<C-w>k
-imap <A-Right> 	<C-w>l
 
 
 "tabs :
@@ -66,8 +62,9 @@ imap <A-r> <Esc> <Cmd> call Run() <CR>
 
 "
 "	[ launchers ]
-imap <A-t> <Cmd>  call g:Terminal() <CR>
 nmap <A-t> <Cmd>  call g:Terminal() <CR>
+
+nmap <A-Enter> <Cmd>  terminal <CR>
 
 
 " Sessions :
