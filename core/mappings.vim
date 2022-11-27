@@ -90,7 +90,15 @@ vmap <A-S-w> b
 "
  
 
+" Terminal mode:
+tnoremap <Esc> <C-\><C-n>
+"tnoremap <M-[> <Esc>
+"tnoremap <C-v><Esc> <Esc>
 "
+tnoremap <A-Left>  <c-\><c-n><c-w>h
+tnoremap <A-Down>  <c-\><c-n><c-w>j
+tnoremap <A-Up> 	 <c-\><c-n><c-w>k
+tnoremap <A-Right> <c-\><c-n><c-w>l
 
 
 
