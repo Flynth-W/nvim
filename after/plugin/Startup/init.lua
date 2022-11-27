@@ -51,6 +51,7 @@ local settings = {
         title = "Basic Commands",
         margin = 1,
         content = {
+            { " Terminal", " terminal ", " " },
             { " New File", "lua require'startup'.new_file()", " " },
             { " Recent Files", " Telescope oldfiles", " " },
             { " Directory", "Telescope file_browser hidden=true ", " " },
