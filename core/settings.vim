@@ -29,27 +29,31 @@ sign define DiagnosticSignHint 	text= texthl=DiagnosticSignHint 	linehl=Diagn
 
 
 "status line 
-    set laststatus=3
+    set laststatus=2
 	set statusline=
-	set statusline=\%#FIVE#
-	set statusline+=\%{g:beforeBuf}
+"	set statusline=\%#FIVE#
+"	set statusline+=\%{g:beforeBuf}
+"	set statusline+=\%#CURSOR#
+"	set statusline+=\%{g:currentBuffer}
+"	set statusline+=\%#FIVE#
+"	set statusline+=\%{g:afterBuf}
 	set statusline+=\%#CURSOR#
-	set statusline+=\%{g:currentBuffer}
-	set statusline+=\%#FIVE#
-	set statusline+=\%{g:afterBuf}
+	set statusline+=\%f
+	set statusline+=\%#NONE#
+    set statusline+=\ 
 	set statusline+=\%#CURSOR#
 	set statusline+=\%m                     	" archivo modificado
 	set statusline+=\%r                         "solo lectura
 	set statusline+=\%#NONE#
 	set statusline+=%=
     "echo  g:beforeTab g:currentTab  g:afterTab
-	set statusline+=\%#FIVE#
-	set statusline+=\%{g:beforeTab}
-	set statusline+=\%#CURSOR#
-	set statusline+=\%{g:currentTab}
-	set statusline+=\%#FIVE#
-	set statusline+=\%{g:afterTab}
-	set statusline+=\%#CURSOR#
+"	set statusline+=\%#FIVE#
+"	set statusline+=\%{g:beforeTab}
+"	set statusline+=\%#CURSOR#
+"	set statusline+=\%{g:currentTab}
+"	set statusline+=\%#FIVE#
+"	set statusline+=\%{g:afterTab}
+"	set statusline+=\%#CURSOR#
 
     set statusline+=\%#SELEC#
 	set statusline+=\[%l]                       " numero de linea
@@ -59,7 +63,7 @@ sign define DiagnosticSignHint 	text= texthl=DiagnosticSignHint 	linehl=Diagn
 	set statusline+=\%#NONE#
 "tabline
 "    set tabline
-    set showtabline=0
+    set showtabline=3
 	set tabline=
 	set tabline=\%#FIVE#
 	set tabline+=\%{g:beforeBuf}
@@ -81,10 +85,10 @@ sign define DiagnosticSignHint 	text= texthl=DiagnosticSignHint 	linehl=Diagn
 	set tabline+=\%{g:afterTab}
 	set tabline+=\%#CURSOR#
 
-    set tabline+=\%#SELEC#
-	set tabline+=\[%l]                       " numero de linea
-	set tabline+=\%#CURSOR#
-	set tabline+=\/%L
+  "  set tabline+=\%#SELEC#
+	"set tabline+=\[%l]                       " numero de linea
+	"set tabline+=\%#CURSOR#
+	"set tabline+=\/%L
     set tabline+=\ 
 	set tabline+=\%#NONE#
 
