@@ -47,6 +47,7 @@
     hi! link typescriptParenExp                 NAME
     hi! link typescriptImport                   SYMBOL
     hi! link typescriptExport                   SYMBOL
+    hi! link typescriptGlobalMethod             DECLARE
 "Date,Type date
     hi! link typescriptString                   DATAS
     hi! link typescriptNumber                   DATAS
@@ -213,7 +214,6 @@ hi  typescriptGlobalArrayDot           guibg=#0000aa  guifg=#ff5555  gui=bold
 hi  typescriptGlobalDateDot            guibg=#0000aa  guifg=#ff5555  gui=bold
 hi  typescriptGlobalJSONDot            guibg=#4400aa  guifg=#ff0000  gui=bold
 hi  typescriptGlobalMathDot            guibg=#4400aa  guifg=#ff0000  gui=bold
-hi  typescriptGlobalMethod             guibg=#4400aa  guifg=#ff0000  gui=bold
 hi  typescriptGlobalNumberDot          guibg=#4400aa  guifg=#ff0000  gui=bold
 hi  typescriptGlobalObjectDot          guibg=#4400aa  guifg=#ffff00  gui=bold
 hi  typescriptGlobalPromiseDot         guibg=#4400aa  guifg=#ffff00  gui=bold
