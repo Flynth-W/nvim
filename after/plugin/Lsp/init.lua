@@ -16,7 +16,7 @@ require'lspconfig'.denols.setup{                                        -- DENO
 }
 
 
-require'lspconfig'.tsserver.setup{capabilities = capabilities , filetypes={"typescriptreact"} }
+require'lspconfig'.tsserver.setup{capabilities = capabilities , filetypes={"typescriptreact","javascript"} }
 require'lspconfig'.cssls.setup {capabilities = capabilities}
 --require'lspconfig'.tailwindcss.setup{capabilities=capabilities}
 
