@@ -1,23 +1,24 @@
 local util = require("lspconfig/util")
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
---require'lspconfig'.denols.setup{                                        -- DENO
---	capabilities = capabilities ;
---	root_dir = function(fname)
---            return util.path.dirname(fname)
---        end
---}
-require'lspconfig'.tsserver.setup{capabilities = capabilities}
-
 require'lspconfig'.texlab.setup{                                        -- LATEX
 	capabilities = capabilities ;
     root_dir = function(fname)
             return util.path.dirname(fname)
         end
 }
+require'lspconfig'.denols.setup{                                        -- DENO
+	capabilities = capabilities ,
+  filetypes={"typescript"} ,
+	root_dir = function(fname)
+            return util.path.dirname(fname)
+        end
+}
 
+
+require'lspconfig'.tsserver.setup{capabilities = capabilities , filetypes={"typescriptreact"} }
 require'lspconfig'.cssls.setup {capabilities = capabilities}
-require'lspconfig'.tailwindcss.setup{capabilities=capabilities}
+--require'lspconfig'.tailwindcss.setup{capabilities=capabilities}
 
 require'lspconfig'.rust_analyzer.setup{ capabilities = capabilities }   --RUST
 require'lspconfig'.jsonls.setup{ capabilities = capabilities,}          -- JSON
