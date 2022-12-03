@@ -37,11 +37,14 @@ vim.diagnostic.config({
   	source = "if_many",  -- Or "if_many"
     prefix = '', -- Could be '■', '▎', 'x' ,"', 
   },
-	--virtual_text= false ,
+	virtual_text= false ,
   severity_sort = true,
   float = {
     source = "if_many",  -- Or "if_many"
   },
 })
 
+-- Show line diagnostics automatically in hover window
+--vim.o.updatetime = 250
+--vim.cmd [[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]]
 
