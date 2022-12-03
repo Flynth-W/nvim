@@ -83,9 +83,10 @@ vmap <A-w> w
 imap <A-S-w> <C-\><C-O>b
 nmap <A-S-w> b
 vmap <A-S-w> b
-"
-"
- 
+
+
+" Diagnostic Float text
+nmap <A-Space> <Cmd>lua vim.diagnostic.open_float(nil, {focus=false})<CR>
 
 " Terminal mode:
 tnoremap <Esc> <C-\><C-n>
