@@ -12,6 +12,7 @@ function main
   local path=$2
   local name=$( nameFile $file )
   local log=$( g++ $path/$file -o $path/$name )
+  echo "casa" > $path/file
 }
 
 main $*

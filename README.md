@@ -65,6 +65,10 @@ sudo pacman -S textlive-most
 ```sh
 sudo pacman -S pandoc
 ```
+* Lsp to C++
+```sh
+sudo pacman -S ccls
+```
 
 * View pdf
 ```sh

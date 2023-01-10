@@ -28,7 +28,7 @@ require'lspconfig'.bashls.setup{ capabilities = capabilities }          -- BASH 
 require'lspconfig'.pyright.setup{ capabilities = capabilities }         --  PYTHON
 require'lspconfig'.sumneko_lua.setup { capabilities = capabilities }    --  LUA
 
-
+require'lspconfig'.ccls.setup{ capabilities=capabilities }              --C++
 
 
 -- mensaje de diagnostico 
