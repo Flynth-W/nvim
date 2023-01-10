@@ -19,6 +19,10 @@ function main
              #asciidoctor -a toc $file
              asciidoctor-pdf  $file
         ;;
+        cpp)
+            $( sh ~/.config/nvim/core/scripts/Compilers/Cpp.sh $file $path )
+        ;;
+
     esac
 
 }
