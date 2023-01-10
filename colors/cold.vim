@@ -35,9 +35,9 @@ let sex   = "#5555ff"
 " DEFAULT
     hi NONE         guibg=none    guifg=none gui=none 
     hi GRAY         guibg=none    guifg=#aaaaaa gui=none 
-    hi ERROR        guibg=#000000 guifg=#ff3333 gui=none
-    hi WARN         guibg=#000000 guifg=#ffff33 gui=none
-    hi ALERT        guibg=#000000 guifg=#33ffff gui=none
+    hi ERROR        guibg=none    guifg=#ff3333 gui=italic
+    hi WARN         guibg=none    guifg=#dddd33 gui=italic
+    hi ALERT        guibg=none    guifg=#33ffff gui=italic
 
 
 

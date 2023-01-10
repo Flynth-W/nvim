@@ -58,6 +58,10 @@ source $HOME/.config/nvim/colors/highlight/plugins/Lsp.vim
     hi! link DiagnosticSignWarn       WARN
     hi! link DiagnosticSignHint       ALERT
 
+" Diagnostic
+    hi! link DiagnosticFloatingWarn           WARN 
+    hi! link DiagnosticFloatingError          ERROR
+    hi! link DiagnosticFloatingHint           ALERT
 
 
 
@@ -94,6 +98,7 @@ hi  Statement                          guibg=none  guifg=#ffaaff  gui=none
 hi  Identifier                         guibg=none  guifg=#ffaa33  gui=none
 
 
+
 "search
 
 
@@ -109,10 +114,7 @@ hi  Cursor                             guibg=#aa0000  guifg=#00ff44  gui=bold
 hi  Debug                              guibg=#aa0000  guifg=#00ff44  gui=bold
 hi  Define                             guibg=#aa0000  guifg=#00ffff  gui=bold
 hi  DiagnosticError                    guibg=#aa0000  guifg=#00ffff  gui=bold
-hi  DiagnosticFloatingError            guibg=#aa0000  guifg=#ffffff  gui=bold
-hi  DiagnosticFloatingHint             guibg=#aa0000  guifg=#ffffff  gui=bold
 hi  DiagnosticFloatingInfo             guibg=#aa0000  guifg=#ffffff  gui=bold
-hi  DiagnosticFloatingWarn             guibg=#aa0000  guifg=#ff8800  gui=bold
 hi  DiagnosticHint                     guibg=#aa0000  guifg=#ff8800  gui=bold
 hi  DiagnosticInfo                     guibg=#aa0000  guifg=#ff8800  gui=bold
 hi  DiagnosticSignInfo                 guibg=#aa0000  guifg=#55ff55  gui=bold
