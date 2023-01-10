@@ -22,6 +22,9 @@ function Run()
     elseif ( l:type == "rust" )
         let l:cmd = s:RunSh . " cargo run "   
         call OpenFloatTerm(l:cmd)
+    elseif ( l:type == "cpp" )
+        let l:cmd = s:RunSh . " sh ~/.config/nvim/core/scripts/Run/cpp.sh " . l:file . " ". l:path    
+        call OpenFloatTerm(l:cmd)
     endif
 
 endfunction
