@@ -8,7 +8,7 @@ nmap <A-s> <Cmd> call SaveCompile() <CR>
 
 
 " saliada
-nmap <Space><Esc> <Cmd> call SaveCompile() <CR><Cmd> quitall <CR>
+nmap <Space><Esc> <Cmd> update <CR><Cmd> quitall <CR>
 
 
 "" Telescope : abrir archivos
