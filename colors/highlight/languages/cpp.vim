@@ -1,17 +1,43 @@
+"GLOBAL
+  hi! link cComment2String                   COMMENT 
+  hi! link cCommentError                     COMMENT 
+  hi! link cCommentL                         COMMENT 
+  hi! link cCommentSkip                      COMMENT 
+  hi! link cCommentStartError                COMMENT 
+  hi! link cCommentStart                     COMMENT 
+  hi! link cCommentString                    COMMENT 
+  hi! link cComment                          COMMENT 
+  hi! link cStatement                        SYMBOL 
+
+"Symbol:
+"Reserved Word
+  hi! link cOperator                          DECLARE
+"Names
+"Data,Type data
+  hi! link cType                              TYPEDATA
+  hi! link cppType                            TYPEDATA
+  hi! link cStorageClass                      TYPEDATA
+  hi! link cppString                          DATAS
+  hi! link cppNumber                          DATAS
+  hi! link cppFloat                           DATAS
+  hi! link cppBoolean                         DATAS
+  hi! link cCharacter                         DATAS
+"Conditional
+  hi! link cConditional                       TYPEDATA
+  hi! link cLabel                             TYPEDATA
+"Bucles
+"Function
+"Class
+"Import/Export
+  hi! link cInclude                           SYMBOL
+  hi! link cIncluded                          NAME
+  hi! link cppStatement                       SYMBOL
+  hi! link cppStructure                       NAME
+
 hi  cBadContinuation                   guibg=#aa0000  guifg=#ffff00  gui=bold
 hi  cBitField                          guibg=#aa0000  guifg=#00ff00  gui=bold
 hi  cBlock                             guibg=#aa0000  guifg=#00ff44  gui=bold
 hi  cBracket                           guibg=#aa0000  guifg=#00ffff  gui=bold
-hi  cCharacter                         guibg=#aa0000  guifg=#ffffff  gui=bold
-hi  cComment2String                    guibg=#aa0000  guifg=#ff8800  gui=bold
-hi  cCommentError                      guibg=#aa0000  guifg=#55ff55  gui=bold
-hi  cCommentL                          guibg=#aa0000  guifg=#5555ff  gui=bold
-hi  cCommentSkip                       guibg=#aa0000  guifg=#ff5555  gui=bold
-hi  cCommentStartError                 guibg=#aaaa00  guifg=#ff0000  gui=bold
-hi  cCommentStart                      guibg=#aaaa00  guifg=#ffff00  gui=bold
-hi  cCommentString                     guibg=#aaaa00  guifg=#00ff00  gui=bold
-hi  cComment                           guibg=#aaaa00  guifg=#00ff44  gui=bold
-hi  cConditional                       guibg=#aaaa00  guifg=#00ffff  gui=bold
 hi  cConstant                          guibg=#aaaa00  guifg=#ffffff  gui=bold
 hi  cCppBracket                        guibg=#aaaa00  guifg=#ff8800  gui=bold
 hi  cCppInElse2                        guibg=#aaaa00  guifg=#55ff55  gui=bold
@@ -35,9 +61,6 @@ hi  cErrInParen                        guibg=#0000aa  guifg=#00ffff  gui=bold
 hi  cError                             guibg=#0000aa  guifg=#ffffff  gui=bold
 hi  cFloat                             guibg=#0000aa  guifg=#ff8800  gui=bold
 hi  cFormat                            guibg=#0000aa  guifg=#55ff55  gui=bold
-hi  cIncluded                          guibg=#0000aa  guifg=#5555ff  gui=bold
-hi  cInclude                           guibg=#0000aa  guifg=#ff5555  gui=bold
-hi  cLabel                             guibg=#4400aa  guifg=#ff0000  gui=bold
 hi  cMulti                             guibg=#4400aa  guifg=#ffff00  gui=bold
 hi  cNumbersCom                        guibg=#4400aa  guifg=#00ff00  gui=bold
 hi  cNumbers                           guibg=#4400aa  guifg=#00ff44  gui=bold
@@ -45,31 +68,23 @@ hi  cNumber                            guibg=#4400aa  guifg=#00ffff  gui=bold
 hi  cOctalError                        guibg=#4400aa  guifg=#ffffff  gui=bold
 hi  cOctal                             guibg=#4400aa  guifg=#ff8800  gui=bold
 hi  cOctalZero                         guibg=#4400aa  guifg=#55ff55  gui=bold
-hi  cOperator                          guibg=#4400aa  guifg=#5555ff  gui=bold
 hi  cParenError                        guibg=#4400aa  guifg=#ff5555  gui=bold
 hi  cParen                             guibg=#aaaaaa  guifg=#ff0000  gui=bold
 hi  cppAccess                          guibg=#aaaaaa  guifg=#ffff00  gui=bold
-hi  cppBoolean                         guibg=#aaaaaa  guifg=#00ff00  gui=bold
 hi  cppCast                            guibg=#aaaaaa  guifg=#00ff44  gui=bold
 hi  cppCharacter                       guibg=#aaaaaa  guifg=#00ffff  gui=bold
 hi  cppConstant                        guibg=#aaaaaa  guifg=#ffffff  gui=bold
 hi  cppExceptions                      guibg=#aaaaaa  guifg=#ff8800  gui=bold
-hi  cppFloat                           guibg=#aaaaaa  guifg=#55ff55  gui=bold
 hi  cppMinMax                          guibg=#aaaaaa  guifg=#5555ff  gui=bold
 hi  cppModifier                        guibg=#aaaaaa  guifg=#ff5555  gui=bold
 hi  cppModule                          guibg=#330000  guifg=#ff0000  gui=bold
 hi  cppNumbers                         guibg=#330000  guifg=#ffff00  gui=bold
-hi  cppNumber                          guibg=#330000  guifg=#00ff00  gui=bold
 hi  cppOperator                        guibg=#330000  guifg=#00ff44  gui=bold
 hi  cppRawStringDelimiter              guibg=#330000  guifg=#00ffff  gui=bold
 hi  cppRawString                       guibg=#330000  guifg=#ffffff  gui=bold
 hi  cppSpecialCharacter                guibg=#330000  guifg=#ff8800  gui=bold
 hi  cppSpecialError                    guibg=#330000  guifg=#55ff55  gui=bold
-hi  cppStatement                       guibg=#330000  guifg=#5555ff  gui=bold
 hi  cppStorageClass                    guibg=#330000  guifg=#ff5555  gui=bold
-hi  cppString                          guibg=#333300  guifg=#ff0000  gui=bold
-hi  cppStructure                       guibg=#333300  guifg=#ffff00  gui=bold
-hi  cppType                            guibg=#333300  guifg=#00ff00  gui=bold
 hi  cPragma                            guibg=#333300  guifg=#00ff44  gui=bold
 hi  cPreConditMatch                    guibg=#333300  guifg=#00ffff  gui=bold
 hi  cPreCondit                         guibg=#333300  guifg=#ffffff  gui=bold
@@ -79,13 +94,10 @@ hi  cSpaceError                        guibg=#333300  guifg=#5555ff  gui=bold
 hi  cSpecialCharacter                  guibg=#333300  guifg=#ff5555  gui=bold
 hi  cSpecialError                      guibg=#003300  guifg=#ff0000  gui=bold
 hi  cSpecial                           guibg=#003300  guifg=#ffff00  gui=bold
-hi  cStatement                         guibg=#003300  guifg=#00ff00  gui=bold
-hi  cStorageClass                      guibg=#003300  guifg=#00ff44  gui=bold
 hi  cString                            guibg=#003300  guifg=#00ffff  gui=bold
 hi  cStructure                         guibg=#003300  guifg=#ffffff  gui=bold
 hi  cTodo                              guibg=#003300  guifg=#ff8800  gui=bold
 hi  cTypedef                           guibg=#003300  guifg=#55ff55  gui=bold
-hi  cType                              guibg=#003300  guifg=#5555ff  gui=bold
 hi  cUserCont                          guibg=#003300  guifg=#ff5555  gui=bold
 hi  cUserLabel                         guibg=#000033  guifg=#ff0000  gui=bold
 hi  cWrongComTail                      guibg=#000033  guifg=#ffff00  gui=bold
