@@ -11,7 +11,13 @@ function main
   local file=$1
   local path=$2
   local name=$( nameFile $file )
-  local log=$( g++ $path/$file -o $path/$name )
+  
+  if [[ $file == "main.cpp" ]]
+  then
+    local log=$( make )
+  else
+    local log=$( g++ $path/$file -o $path/$name )
+  fi
 }
 
 main $*
