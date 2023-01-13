@@ -8,6 +8,7 @@
   hi! link cCommentString                    COMMENT 
   hi! link cComment                          COMMENT 
   hi! link cStatement                        SYMBOL 
+  hi! link cStructure                        SYMBOL
 
 "Symbol:
 "Reserved Word
@@ -95,7 +96,6 @@ hi  cSpecialCharacter                  guibg=#333300  guifg=#ff5555  gui=bold
 hi  cSpecialError                      guibg=#003300  guifg=#ff0000  gui=bold
 hi  cSpecial                           guibg=#003300  guifg=#ffff00  gui=bold
 hi  cString                            guibg=#003300  guifg=#00ffff  gui=bold
-hi  cStructure                         guibg=#003300  guifg=#ffffff  gui=bold
 hi  cTodo                              guibg=#003300  guifg=#ff8800  gui=bold
 hi  cTypedef                           guibg=#003300  guifg=#55ff55  gui=bold
 hi  cUserCont                          guibg=#003300  guifg=#ff5555  gui=bold
