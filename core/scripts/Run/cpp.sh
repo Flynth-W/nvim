@@ -12,12 +12,7 @@ function main
   local path=$2
   local name=$( nameFile $file )
   
-  if [[ $file == "main.cpp" ]]
-  then
-    $path/bin
-  else
-    $path/$name 
-  fi
+  $path/$name
   
 }
 
