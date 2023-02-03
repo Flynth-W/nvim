@@ -23,9 +23,14 @@ function main
   then
     local log=$( make )
   else
-    #local log=$( g++ $path/$file -o $path/$name )
-    local log=$( g++ -c $path/$file -o $path/$preCompile )
-    local log=$( g++  $path/$file -o $path/$name )
+	  local extencion=$( echo $file | cut -d "." -f2 )
+    if [[ $extencion == "cpp" ]]
+    then
+      local log=$( g++ -c $path/$file -o $path/$preCompile )
+      local log=$( g++ $path/$file -o $path/$name )
+    fi
+
+    #local log=$( g++  $path/$file -o $path/$name )
   fi
 }
 
