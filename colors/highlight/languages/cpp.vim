@@ -23,12 +23,16 @@
   hi! link cppFloat                           DATAS
   hi! link cppBoolean                         DATAS
   hi! link cCharacter                         DATAS
+  hi! link cConstant                          GRAY
 "Conditional
   hi! link cConditional                       TYPEDATA
   hi! link cLabel                             TYPEDATA
 "Bucles
+  hi! link cRepeat                            SYMBOL
 "Function
+  hi! link cppModifier                        NAME
 "Class
+  hi! link cppAccess                          SYMBOL 
 "Import/Export
   hi! link cInclude                           SYMBOL
   hi! link cIncluded                          NAME
@@ -39,7 +43,6 @@ hi  cBadContinuation                   guibg=#aa0000  guifg=#ffff00  gui=bold
 hi  cBitField                          guibg=#aa0000  guifg=#00ff00  gui=bold
 hi  cBlock                             guibg=#aa0000  guifg=#00ff44  gui=bold
 hi  cBracket                           guibg=#aa0000  guifg=#00ffff  gui=bold
-hi  cConstant                          guibg=#aaaa00  guifg=#ffffff  gui=bold
 hi  cCppBracket                        guibg=#aaaa00  guifg=#ff8800  gui=bold
 hi  cCppInElse2                        guibg=#aaaa00  guifg=#55ff55  gui=bold
 hi  cCppInElse                         guibg=#aaaa00  guifg=#5555ff  gui=bold
@@ -71,13 +74,11 @@ hi  cOctal                             guibg=#4400aa  guifg=#ff8800  gui=bold
 hi  cOctalZero                         guibg=#4400aa  guifg=#55ff55  gui=bold
 hi  cParenError                        guibg=#4400aa  guifg=#ff5555  gui=bold
 hi  cParen                             guibg=#aaaaaa  guifg=#ff0000  gui=bold
-hi  cppAccess                          guibg=#aaaaaa  guifg=#ffff00  gui=bold
 hi  cppCast                            guibg=#aaaaaa  guifg=#00ff44  gui=bold
 hi  cppCharacter                       guibg=#aaaaaa  guifg=#00ffff  gui=bold
 hi  cppConstant                        guibg=#aaaaaa  guifg=#ffffff  gui=bold
 hi  cppExceptions                      guibg=#aaaaaa  guifg=#ff8800  gui=bold
 hi  cppMinMax                          guibg=#aaaaaa  guifg=#5555ff  gui=bold
-hi  cppModifier                        guibg=#aaaaaa  guifg=#ff5555  gui=bold
 hi  cppModule                          guibg=#330000  guifg=#ff0000  gui=bold
 hi  cppNumbers                         guibg=#330000  guifg=#ffff00  gui=bold
 hi  cppOperator                        guibg=#330000  guifg=#00ff44  gui=bold
@@ -90,7 +91,6 @@ hi  cPragma                            guibg=#333300  guifg=#00ff44  gui=bold
 hi  cPreConditMatch                    guibg=#333300  guifg=#00ffff  gui=bold
 hi  cPreCondit                         guibg=#333300  guifg=#ffffff  gui=bold
 hi  cPreProc                           guibg=#333300  guifg=#ff8800  gui=bold
-hi  cRepeat                            guibg=#333300  guifg=#55ff55  gui=bold
 hi  cSpaceError                        guibg=#333300  guifg=#5555ff  gui=bold
 hi  cSpecialCharacter                  guibg=#333300  guifg=#ff5555  gui=bold
 hi  cSpecialError                      guibg=#003300  guifg=#ff0000  gui=bold
