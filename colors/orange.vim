@@ -8,6 +8,7 @@ let Sive  = "#ffaaaa"
 
     hi ONE       guibg=none guifg=#aa5500 gui=italic
     hi TWO       guibg=none guifg=#ffaa00 gui=italic
+    hi THREE     guibg=none guifg=#dd8800 gui=italic
     hi FIVE      guibg=none guifg=#ffaaaa gui=none
 "CURSOR :
     hi CURSOR       guibg=#220000 guifg=#ffff33 gui=italic

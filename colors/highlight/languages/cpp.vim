@@ -9,6 +9,7 @@
   hi! link cComment                          COMMENT 
   hi! link cStatement                        SYMBOL 
   hi! link cStructure                        SYMBOL
+  hi! link cppCast                           SYMBOL
 
 "Symbol:
 "Reserved Word
@@ -74,7 +75,6 @@ hi  cOctal                             guibg=#4400aa  guifg=#ff8800  gui=bold
 hi  cOctalZero                         guibg=#4400aa  guifg=#55ff55  gui=bold
 hi  cParenError                        guibg=#4400aa  guifg=#ff5555  gui=bold
 hi  cParen                             guibg=#aaaaaa  guifg=#ff0000  gui=bold
-hi  cppCast                            guibg=#aaaaaa  guifg=#00ff44  gui=bold
 hi  cppCharacter                       guibg=#aaaaaa  guifg=#00ffff  gui=bold
 hi  cppConstant                        guibg=#aaaaaa  guifg=#ffffff  gui=bold
 hi  cppExceptions                      guibg=#aaaaaa  guifg=#ff8800  gui=bold

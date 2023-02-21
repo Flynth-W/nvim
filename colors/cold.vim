@@ -8,6 +8,7 @@ let sex   = "#5555ff"
 
     hi ONE       guibg=none guifg=#0055ff gui=italic
     hi TWO       guibg=none guifg=#00aaff gui=italic
+    hi THREE     guibg=none guifg=#0088dd gui=italic
     hi FIVE      guibg=none guifg=#55aaff gui=none
 "CURSOR :
     hi CURSOR       guibg=#001122 guifg=#00ffff gui=italic
