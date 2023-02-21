@@ -7,6 +7,8 @@ call plug#begin()
     "Plug 'bling/vim-bufferline' <= modificar 
     Plug 'norcalli/nvim-colorizer.lua' " da color a #ff00ff
     "Plug 'echasnovski/mini.nvim', { 'branch': 'stable' }  " prev
+    "glsl
+    Plug 'tikhomirov/vim-glsl'
 call plug#end()
 
 "nvim-colorizer
