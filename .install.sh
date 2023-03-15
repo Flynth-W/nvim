@@ -7,7 +7,7 @@ function main
   sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 
-  sudo pacman -S lua textlive-most pandoc ccls deno rust-analyzer texlab pyright lua-language-server 
+  sudo pacman -S lua texlive-most pandoc ccls deno rust-analyzer texlab pyright lua-language-server 
   sudo npm i -g vscode-langservers-extracted vim-language-server bash-language-server
 
   echo -e " execute  :PlugInstall \n:PackerInstall"
