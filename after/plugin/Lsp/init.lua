@@ -26,7 +26,7 @@ require'lspconfig'.html.setup{ capabilities = capabilities}             -- HTML
 require'lspconfig'.vimls.setup{ capabilities = capabilities}            -- VIM SCRIPT
 require'lspconfig'.bashls.setup{ capabilities = capabilities }          -- BASH LS
 require'lspconfig'.pyright.setup{ capabilities = capabilities }         --  PYTHON
-require'lspconfig'.sumneko_lua.setup { capabilities = capabilities }    --  LUA
+require'lspconfig'.lua_ls.setup { capabilities = capabilities }    --  LUA
 
 require'lspconfig'.ccls.setup{ capabilities=capabilities }              --C++
 --require'lspconfig'.clangd.setup{ capabilities=capabilities }              --C++
