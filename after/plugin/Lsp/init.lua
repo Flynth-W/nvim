@@ -14,7 +14,7 @@ require'lspconfig'.denols.setup{                                        -- DENO
             return util.path.dirname(fname)
         end
 }
-
+--require'lspconfig'.glslls.setup{capabilities = capabilities}
 
 require'lspconfig'.tsserver.setup{capabilities = capabilities , filetypes={"typescriptreact","javascript"} }
 require'lspconfig'.cssls.setup {capabilities = capabilities}

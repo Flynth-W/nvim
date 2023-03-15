@@ -1,8 +1,10 @@
 OBJS = ./main.o
-
+FILE_BIN = .main.bin
+#CFLAGS = 
+#LIBS = 
 bin: $(OBJS)
-	g++ -o .main.bin $(OBJS)
+	g++ -o $(FILE_BIN) $(OBJS)
 %.o:%.cpp
 	g++ -c $< -o $@
-files: 
-	find *.cpp */*.cpp 
+clean:
+	rm *.o $(FILE_BIN)
