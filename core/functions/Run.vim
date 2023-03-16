@@ -10,6 +10,9 @@ function Run()
     elseif ( l:type == "typescript" )
         let l:cmd = s:RunSh . "deno run --allow-all " .  l:path . "/" . l:file  
         call OpenFloatTerm(l:cmd)
+    elseif ( l:type == "javascript" )
+        let l:cmd = s:RunSh . "deno run --allow-all " .  l:path . "/" . l:file  
+        call OpenFloatTerm(l:cmd)
     elseif (l:type == "lua" )
         let l:cmd = s:RunSh . "lua " .  l:path . "/" .  l:file  
         call OpenFloatTerm(l:cmd)
