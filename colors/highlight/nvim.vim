@@ -49,9 +49,9 @@ source $HOME/.config/nvim/colors/highlight/plugins/Lsp.vim
     hi! link  DiagnosticVirtualTextHint      ALERT
     hi! link  DiagnosticUnderlineHint        ALERT
 "Numreos de lineas ads:
-    hi! link LineNr           DECLARE 
-    hi! link LineNrAbove      DECLARE 
-    hi! link LineNrBelow      DECLARE 
+    hi! link LineNr           SIX 
+    hi! link LineNrAbove      GRAY
+    hi! link LineNrBelow      GRAY 
 "Columna de signos 
     hi! link SignColumn               NONE
     hi! link DiagnosticSignError      ERROR
