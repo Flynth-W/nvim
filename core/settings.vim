@@ -6,11 +6,15 @@ au BufNewFile,BufRead * set nocursorline
 autocmd BufNewFile,BufRead *.fish  set filetype=sh
 "autocmd Syntax * set nofoldenable
 
+
+
 " set's
     set signcolumn=no
     set termguicolors
     set clipboard=unnamedplus
     set mouse=a
+    set number
+    set relativenumber
 "tabluador
     set	shiftwidth=2
     set	tabstop=2
