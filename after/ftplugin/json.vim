@@ -1,3 +1,3 @@
-"source ~/.config/nvim/setup/highlight/languages/json.vim
+source ~/.config/nvim/colors/highlight/languages/json.vim
 
 
