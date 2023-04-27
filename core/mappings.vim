@@ -98,7 +98,8 @@ tnoremap <A-Down>  <c-\><c-n><c-w>j
 tnoremap <A-Up> 	 <c-\><c-n><c-w>k
 tnoremap <A-Right> <c-\><c-n><c-w>l
 
-
+"selec all
+nmap sa  GVgg
 
 
 
