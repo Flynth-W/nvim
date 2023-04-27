@@ -4,6 +4,8 @@
 "au BufNewFile,BufRead *.tex set filetype=tex
 au BufNewFile,BufRead * set nocursorline
 autocmd BufNewFile,BufRead *.fish  set filetype=sh
+autocmd BufNewFile,BufRead *.vs set filetype=glsl
+autocmd BufNewFile,BufRead *.fs set filetype=glsl
 "autocmd Syntax * set nofoldenable
 
 
