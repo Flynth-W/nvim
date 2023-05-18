@@ -17,9 +17,9 @@ autocmd BufNewFile,BufRead *.fs set filetype=glsl
     set mouse=a
     set number
     set relativenumber
-"tabluador
-    set	shiftwidth=2
-    set	tabstop=2
+"tabluator  :: standard 4 spaces
+    set	shiftwidth=4
+    set	tabstop=4
     set	autoindent
     set expandtab 
 " cmd's
