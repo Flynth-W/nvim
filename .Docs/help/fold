@@ -1,0 +1,11 @@
+this is hidden lines
+
+Normal:
+    1 line
+    2 line
+    3 line
+    4 line
+Fold:
+    1 line
++++ 2 lines fold
+    4 line
