@@ -15,8 +15,8 @@ autocmd BufNewFile,BufRead *.fs set filetype=glsl
     set termguicolors
     set clipboard=unnamedplus
     set mouse=a
-    set number
-    set relativenumber
+    set nonumber
+    set norelativenumber
 "tabluator  :: standard 4 spaces
     set	shiftwidth=4
     set	tabstop=4
