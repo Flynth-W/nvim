@@ -23,8 +23,6 @@ function CreateMakeFile()
   endif
 
   let l:path=expand("%:p:h")
-  "let l:cmd ="! sh ~/.config/nvim/after/ftplugin/cpp.sh " . l:path .  " "
-  let l:ifmake= execute( l:cmd )
   
 endfunction
 
