@@ -28,8 +28,11 @@ require'lspconfig'.bashls.setup{ capabilities = capabilities }          -- BASH 
 require'lspconfig'.pyright.setup{ capabilities = capabilities }         --  PYTHON
 require'lspconfig'.lua_ls.setup { capabilities = capabilities }    --  LUA
 
+
+require'lspconfig'.cmake.setup{capabilities = capabilities}
 require'lspconfig'.ccls.setup{ capabilities=capabilities }              --C++
 --require'lspconfig'.clangd.setup{ capabilities=capabilities }              --C++
+
 
 
 -- mensaje de diagnostico 
