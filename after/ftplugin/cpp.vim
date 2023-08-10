@@ -1,5 +1,4 @@
 source ~/.config/nvim/colors/highlight/languages/cpp.vim
-let g:AutoPairs={'(':')', '[':']', '{':'}',"'":"'",'"':'"', "`":"`" } 
 
 function InitFile() 
     let l:file=expand("%:t")
