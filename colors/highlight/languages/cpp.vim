@@ -10,6 +10,7 @@
   hi! link cStatement                        SYMBOL 
   hi! link cStructure                        SYMBOL
   hi! link cppCast                           SYMBOL
+  hi! link cppConstant                       GRAY
 
 "Symbol:
 "Reserved Word
@@ -76,7 +77,6 @@ hi  cOctalZero                         guibg=#4400aa  guifg=#55ff55  gui=bold
 hi  cParenError                        guibg=#4400aa  guifg=#ff5555  gui=bold
 hi  cParen                             guibg=#aaaaaa  guifg=#ff0000  gui=bold
 hi  cppCharacter                       guibg=#aaaaaa  guifg=#00ffff  gui=bold
-hi  cppConstant                        guibg=#aaaaaa  guifg=#ffffff  gui=bold
 hi  cppExceptions                      guibg=#aaaaaa  guifg=#ff8800  gui=bold
 hi  cppMinMax                          guibg=#aaaaaa  guifg=#5555ff  gui=bold
 hi  cppModule                          guibg=#330000  guifg=#ff0000  gui=bold
